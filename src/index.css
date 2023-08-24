@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1, h2, h3, h4, h5, h6, p, button {
+  font-family: "Open Sans", sans-serif;
+}
 
 :root {
   font-synthesis: none;
@@ -8,4 +14,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --white: #FFFFFF;
+  --gray_6: #F3F3F3;
+  --gray_12: #ECEAEA;
+  --gray_25: #DCDBDB;
+  --gray_50: #9D9A9A;
+  --gray_85: #565353;
+  --gray_100: #393737;
+
+  --red_40: #F8A9B0;
+  --red_110: #C92C39;
+  --red_120: #A52F38;
 }

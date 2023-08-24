@@ -15,7 +15,7 @@
 .modal {
     padding: 24px;
     border-radius: 12px;
-    background-color: #ffffff;
+    background-color: var(--white);
     min-width: 320px;
     max-width: 400px;
     height: fit-content;
@@ -27,7 +27,7 @@
 }
 
 .modal__header {
-    color: #393737;
+    color: var(--gray_100);
     margin-bottom: 8px;
     font-size: 18px;
     font-weight: 600;
@@ -35,7 +35,7 @@
 }
 
 .modal__content {
-    color: #565353;
+    color: var(--gray_85);
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -43,6 +43,7 @@
 
 .modal__footer {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 32px;

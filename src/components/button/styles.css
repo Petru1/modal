@@ -1,17 +1,51 @@
 .button {
-    padding: 10px 60px;
+    padding: 10px 59px;
     border-radius: 8px;
-}
-
-.button:disabled {
-    opacity: 0.6;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.15px;
 }
 
 .button--default {
-    border: 1px solid #DCDBDB;
+    border: 1px solid var(--gray_25);
+    color: var(--gray_100);
+    background-color: var(--white);
+}
+
+.button--default:hover {
+    background-color: var(--gray_6);
+}
+
+.button--default:active {
+    background-color: var(--gray_12);
+}
+
+.button--default:focus {
+    box-shadow: 0px 0px 0px 4px #F2F4F7, 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.button--default:disabled {
+    color: var(--gray_50);
 }
 
 .button--danger {
-    background-color: #C92C39;
-    color: #ffffff;
+    background-color: var(--red_110);
+    color: var(--white);
+    border: 1px solid var(--red_110);
+}
+
+.button--danger:hover, .button--danger:active {
+    background-color: var(--red_120);
+    border: 1px solid var(--red_120);
+}
+
+.button--danger:focus {
+    box-shadow: 0px 0px 0px 4px #FAC9CD, 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.button--danger:disabled {
+    background-color: var(--red_40);
+    border: 1px solid var(--red_40);
 }
